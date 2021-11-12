@@ -11,8 +11,6 @@ export class MailService {
       subject: 'testing nest mailer with template',
       template: './index',
       context: {
-        name: 'df',
-        url: 'asdfasdf',
       },
     });
   }
